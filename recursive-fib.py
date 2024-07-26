@@ -16,6 +16,9 @@ def fib(n):
 
 for i in range(50):
     start = time.time()
-    print(fib(i), i)
+    print(f"{fib(i)}, i")
     stop = time.time()
     print(f"{stop-start}s")
+
+# RUNTIME O(N^2)
+# AX. SPACE O(1)

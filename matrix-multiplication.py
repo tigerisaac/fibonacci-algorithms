@@ -61,3 +61,6 @@ def f(n):
 
 for i in range(50):
     print(f(i), i)
+
+# RUNTIME: O(log(N))
+# AX. SPACE: O(1)
